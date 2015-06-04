@@ -1,0 +1,26 @@
+{
+    "name": "fivepercent/var-tag-validator",
+    "description": "Validate objects by var tag",
+    "keywords": [ "var tag", "var tag validator" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4",
+        "fivepercent/cache": "~1.0",
+        "fivepercent/reflection": "~1.0",
+        "fivepercent/exception": "~1.0",
+        "symfony/validator": "~2.3",
+        "phpdocumentor/reflection-docblock": "~2.0"
+    },
+
+    "autoload": {
+        "psr-4": { "FivePercent\\Component\\VarTagValidator\\": "src/" }
+    }
+}
